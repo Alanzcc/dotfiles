@@ -1,0 +1,134 @@
+/* `otf-font-awesome` is required to be installed for icons */
+* {
+  font-family: Rubik Font;
+  font-size: 0.8rem;
+  margin: -3 0;
+}
+
+.modules-right {
+  margin-right: 1.2rem;
+}
+
+.modules-left {
+  margin-left: 1.2rem;
+}
+
+window#waybar {
+  color: #c7dce6;
+  background-color: rgba(72, 46, 30, 0.9);
+}
+
+tooltip {
+  border-radius: 10px;
+  border-width: 0px;
+  background: #482e1e;
+}
+
+#workspaces {
+  background: #482e1e;
+  border-radius: 0.6rem;
+  margin: 0.7rem 0.5rem;
+  padding: 0.2rem 0.2rem;
+}
+
+#workspaces button {
+  padding: 0rem 0.3rem;
+  margin: 0;
+  color: #E2D2A8;
+  border-radius: 50%;
+}
+
+#workspaces button.visible {
+  color: #6D9D91;
+}
+
+#workspaces button.empty {
+  color: #6D9D91;
+}
+
+#workspaces button.active {
+  color: #c7dce6;
+  background: #DDCA66;
+}
+
+#workspaces button.urgent {
+  color: #c7dce6;
+}
+
+#workspaces button:hover {
+  background: #c7dce6;
+  color: #482e1e;
+}
+
+#wireplumber,
+#backlight,
+#disk,
+#network,
+#bluetooth {
+  border-radius: 0.75rem;
+  padding: 0.2rem;
+  margin: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+#clock {
+  background: #482e1e;
+  color: #E2D2A8;
+  border-radius: 0.6rem;
+  margin: 0.7rem 0rem;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+
+#tray {
+  color: #c7dce6;
+  border-radius: 10px;
+}
+
+#hardware {
+  background: #482e1e;
+  color: #c7dce6;
+  border-radius: 0.6rem;
+  margin: 0.7rem 0rem;
+  padding: 0.2rem 0.5rem;
+}
+
+#battery {
+  background: #482e1e;
+  color: #c7dce6;
+  border-radius: 0.6rem;
+  margin: 0.7rem 0rem;
+  padding: 0.2rem 0.5rem;
+}
+
+#custom-notification {
+  background-color: #482e1e;
+  color: #c7dce6;
+  margin-right: 6px;
+  padding-left: 6px;
+}
+
+#temperature {
+  color: #c7dce6;
+  border-radius: 10px;
+}
+
+#temperature.critical {
+  color: #c7dce6;
+}
+
+#mpris {
+  color: #c7dce6;
+  border-radius: 10px;
+}
+
+#bluetooth {
+  color: #c7dce6;
+  border-radius: 10px;
+}
+
+#network {
+  color: #c7dce6;
+}
+
+/*# sourceMappingURL=style.css.map */

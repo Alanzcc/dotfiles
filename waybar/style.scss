@@ -1,0 +1,152 @@
+/* `otf-font-awesome` is required to be installed for icons */
+
+@import "/home/gaius/.cache/wal/colors.scss";
+
+* {
+    font-family: Rubik Font;
+    font-size: 0.8rem;
+    margin: -3 0;
+}
+
+.modules-right {
+    margin-right: 1.2rem;
+
+}
+
+
+.modules-left {
+    margin-left: 1.2rem;
+}
+
+window#waybar {
+    color: $foreground;
+    background-color: rgba($background, 0.90);
+}
+
+tooltip {
+    border-radius: 10px;
+    border-width: 0px;
+    background: $background;
+}
+
+#workspaces {
+    background: $background;
+    border-radius: 0.6rem;
+    margin: 0.7rem 0.5rem;
+    padding: 0.2rem 0.2rem;
+}
+
+#workspaces button {
+    padding: 0rem 0.3rem;
+    margin: 0;
+    color: $color14;
+    border-radius: 50%;
+}
+
+#workspaces button.visible {
+    color: $color11;
+
+}
+
+#workspaces button.empty {
+    color: $color3;
+}
+
+#workspaces button.active {
+    color: $color15;
+    background: $color10;
+}
+
+#workspaces button.urgent {
+    color: $foreground;
+}
+
+#workspaces button:hover {
+    background: $foreground;
+    color: $background;
+}
+
+
+#wireplumber,
+#backlight,
+#disk,
+#network,
+#bluetooth {
+    border-radius: 0.75rem;
+    padding: 0.2rem;
+    margin: 0.4rem;
+    margin-right: 0.5rem;
+}
+
+#clock {
+    background: $background;
+    color: $color14;
+    border-radius: 0.6rem;
+    margin: 0.7rem 0rem;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.5rem;
+
+
+}
+
+#tray {
+    color: $foreground;
+    border-radius: 10px;
+
+
+}
+
+#hardware {
+    background: $background;
+    color: $foreground;
+    border-radius: 0.6rem;
+    margin: 0.7rem 0rem;
+    padding: 0.2rem 0.5rem;
+
+}
+
+#battery {
+    background: $background;
+    color: $foreground;
+    border-radius: 0.6rem;
+    margin: 0.7rem 0rem;
+    padding: 0.2rem 0.5rem;
+
+
+}
+
+#custom-notification {
+    background-color: $background;
+    color: $foreground;
+    margin-right: 6px;
+    padding-left: 6px;
+}
+
+
+
+
+
+#temperature {
+    color: $foreground;
+    border-radius: 10px;
+}
+
+#temperature.critical {
+    color: $foreground;
+}
+
+
+#mpris {
+    color: $foreground;
+    border-radius: 10px;
+
+}
+
+#bluetooth {
+    color: $foreground;
+    border-radius: 10px;
+}
+
+#network {
+    color: $foreground;
+}
