@@ -1,4 +1,7 @@
 # dotfiles
+pywalfox add-on
+
+yay -S 
 hyprland
 hyprcursor
 hyprlock
@@ -22,8 +25,9 @@ fd
 
 nautilus
 vesktop
-pywalfox
-spicetify
+firefox
+spotify-launcher
+spicetify-cli
 steam
 docker-desktop
 docker-compose
