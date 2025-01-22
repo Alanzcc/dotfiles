@@ -26,6 +26,7 @@ fd
 nautilus
 vesktop
 firefox
+python-pywalfox
 spotify-launcher
 spicetify-cli
 steam
